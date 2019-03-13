@@ -1,0 +1,94 @@
+2019.02.05 12:20:13 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2019.02.05 12:20:13 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.02.05 12:20:14 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[16880], build[fcbb46d/2017-01-03T11:33:16Z]
+2019.02.05 12:20:14 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2019.02.05 12:20:14 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2019.02.05 12:20:14 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [343.4gb], net total_space [475.8gb], spins? [unknown], types [NTFS]
+2019.02.05 12:20:14 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [989.8mb], compressed ordinary object pointers [true]
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2019.02.05 12:20:17 WARN  es[][o.s.p.ProcessEntryPoint] Fail to start es
+org.elasticsearch.transport.BindTransportException: Failed to bind to [9001]
+	at org.elasticsearch.transport.netty.NettyTransport.bindToPort(NettyTransport.java:489)
+	at org.elasticsearch.transport.netty.NettyTransport.bindServerBootstrap(NettyTransport.java:451)
+	at org.elasticsearch.transport.netty.NettyTransport.doStart(NettyTransport.java:332)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.transport.TransportService.doStart(TransportService.java:182)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:278)
+	at org.sonar.search.SearchServer.start(SearchServer.java:63)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:111)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:98)
+	at org.sonar.search.SearchServer.main(SearchServer.java:109)
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /127.0.0.1:9001
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at org.elasticsearch.transport.netty.NettyTransport$1.onPortNumber(NettyTransport.java:471)
+	at org.elasticsearch.common.transport.PortsRange.iterate(PortsRange.java:58)
+	at org.elasticsearch.transport.netty.NettyTransport.bindToPort(NettyTransport.java:467)
+	... 10 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] stopping ...
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] stopped
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] closing ...
+2019.02.05 12:20:17 INFO  es[][o.elasticsearch.node] [sonarqube] closed
+2019.02.05 12:20:25 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2019.02.05 12:20:26 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.02.05 12:20:26 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[864], build[fcbb46d/2017-01-03T11:33:16Z]
+2019.02.05 12:20:26 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2019.02.05 12:20:26 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2019.02.05 12:20:26 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [343.4gb], net total_space [475.8gb], spins? [unknown], types [NTFS]
+2019.02.05 12:20:26 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [989.8mb], compressed ordinary object pointers [true]
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2019.02.05 12:20:29 WARN  es[][o.s.p.ProcessEntryPoint] Fail to start es
+org.elasticsearch.transport.BindTransportException: Failed to bind to [9001]
+	at org.elasticsearch.transport.netty.NettyTransport.bindToPort(NettyTransport.java:489)
+	at org.elasticsearch.transport.netty.NettyTransport.bindServerBootstrap(NettyTransport.java:451)
+	at org.elasticsearch.transport.netty.NettyTransport.doStart(NettyTransport.java:332)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.transport.TransportService.doStart(TransportService.java:182)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:278)
+	at org.sonar.search.SearchServer.start(SearchServer.java:63)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:111)
+	at org.sonar.process.ProcessEntryPoint.launch(ProcessEntryPoint.java:98)
+	at org.sonar.search.SearchServer.main(SearchServer.java:109)
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /127.0.0.1:9001
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at org.elasticsearch.transport.netty.NettyTransport$1.onPortNumber(NettyTransport.java:471)
+	at org.elasticsearch.common.transport.PortsRange.iterate(PortsRange.java:58)
+	at org.elasticsearch.transport.netty.NettyTransport.bindToPort(NettyTransport.java:467)
+	... 10 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] stopping ...
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] stopped
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] closing ...
+2019.02.05 12:20:29 INFO  es[][o.elasticsearch.node] [sonarqube] closed

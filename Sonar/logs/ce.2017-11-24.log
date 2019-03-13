@@ -1,0 +1,14 @@
+2017.11.24 12:32:53 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2017.11.24 12:32:53 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2017.11.24 12:32:54 INFO  ce[][o.e.plugins] [She-Hulk] modules [], plugins [], sites []
+2017.11.24 12:32:55 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.11.24 12:32:55 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.11.24 12:32:55 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.11.24 12:32:56 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Jenkins\Jenkins Softwares\Jenkins Softwares\sonarqube-6.5
+2017.11.24 12:32:57 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2017.11.24 12:33:05 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Sun May 28 12:33:05 IST 2017
+2017.11.24 12:33:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2017.11.24 12:35:22 INFO  ce[AV_s2FJBONZtszjB8dW5][o.s.c.t.CeWorkerImpl] Execute task | project=Hello | type=REPORT | id=AV_s2FJBONZtszjB8dW5 | submitter=admin
+2017.11.24 12:35:34 INFO  ce[AV_s2FJBONZtszjB8dW5][o.s.c.t.CeWorkerImpl] Executed task | project=Hello | type=REPORT | id=AV_s2FJBONZtszjB8dW5 | submitter=admin | time=11187ms
+2017.11.24 15:01:25 INFO  ce[AV_tXg3-ONZtszjB8dW6][o.s.c.t.CeWorkerImpl] Execute task | project=Hello | type=REPORT | id=AV_tXg3-ONZtszjB8dW6 | submitter=admin
+2017.11.24 15:01:32 INFO  ce[AV_tXg3-ONZtszjB8dW6][o.s.c.t.CeWorkerImpl] Executed task | project=Hello | type=REPORT | id=AV_tXg3-ONZtszjB8dW6 | submitter=admin | time=6445ms

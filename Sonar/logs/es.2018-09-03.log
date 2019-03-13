@@ -1,0 +1,110 @@
+2018.03.29 09:10:42 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2018.03.29 09:10:42 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.03.29 09:10:43 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[13284], build[fcbb46d/2017-01-03T11:33:16Z]
+2018.03.29 09:10:43 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2018.03.29 09:10:43 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2018.03.29 09:10:43 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [69.2gb], net total_space [118.7gb], spins? [unknown], types [NTFS]
+2018.03.29 09:10:43 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2018.03.29 09:10:52 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2018.03.29 09:10:52 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2018.03.29 09:10:53 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2018.03.29 09:10:53 INFO  es[][o.e.discovery] [sonarqube] sonarqube/rQYUUVyOQN2Og0FLTQw7_w
+2018.03.29 09:10:57 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{rQYUUVyOQN2Og0FLTQw7_w}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2018.03.29 09:10:57 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2018.03.29 09:10:57 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2018.03.29 09:11:03 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][0]] ...]).
+2018.03.29 14:19:55 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2018.03.29 14:19:55 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.03.29 14:19:56 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[9388], build[fcbb46d/2017-01-03T11:33:16Z]
+2018.03.29 14:19:56 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2018.03.29 14:19:56 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2018.03.29 14:19:56 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [67.9gb], net total_space [118.7gb], spins? [unknown], types [NTFS]
+2018.03.29 14:19:56 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2018.03.29 14:20:02 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2018.03.29 14:20:02 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2018.03.29 14:20:02 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2018.03.29 14:20:02 INFO  es[][o.e.discovery] [sonarqube] sonarqube/Iq0gyqRaR9OuXZf4DZemvg
+2018.03.29 14:20:06 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{Iq0gyqRaR9OuXZf4DZemvg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2018.03.29 14:20:06 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2018.03.29 14:20:07 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2018.03.29 14:20:11 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][3], [components][3]] ...]).
+2018.03.29 15:16:55 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2018.03.29 15:16:56 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.03.29 15:16:56 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[3692], build[fcbb46d/2017-01-03T11:33:16Z]
+2018.03.29 15:16:56 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2018.03.29 15:16:56 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2018.03.29 15:16:57 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [66.7gb], net total_space [118.7gb], spins? [unknown], types [NTFS]
+2018.03.29 15:16:57 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2018.03.29 15:17:04 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2018.03.29 15:17:04 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2018.03.29 15:17:04 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2018.03.29 15:17:04 INFO  es[][o.e.discovery] [sonarqube] sonarqube/A3M4Tg-3SVOAO4BwiXPN5w
+2018.03.29 15:17:09 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{A3M4Tg-3SVOAO4BwiXPN5w}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2018.03.29 15:17:09 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2018.03.29 15:17:09 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [views][1] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [views][0] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [views][2] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [views][4] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [issues][2] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [issues][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [views][3] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:11 WARN  es[][o.e.index.translog] [sonarqube] [users][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [issues][1] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [issues][3] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][1] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [rules][1] deleted previously created, but not yet committed, next generation [translog-19.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [rules][0] deleted previously created, but not yet committed, next generation [translog-19.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [tests][3] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][2] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:12 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][3] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [tests][4] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [tests][2] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [tests][1] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [tests][0] deleted previously created, but not yet committed, next generation [translog-15.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [components][1] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [components][3] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [components][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 WARN  es[][o.e.index.translog] [sonarqube] [components][2] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:17:13 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][2]] ...]).
+2018.03.29 15:37:40 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2018.03.29 15:37:41 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2018.03.29 15:37:42 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[7456], build[fcbb46d/2017-01-03T11:33:16Z]
+2018.03.29 15:37:42 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2018.03.29 15:37:42 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2018.03.29 15:37:43 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[OSDisk (C:)]], net usable_space [66.5gb], net total_space [118.7gb], spins? [unknown], types [NTFS]
+2018.03.29 15:37:43 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2018.03.29 15:37:56 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2018.03.29 15:37:56 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2018.03.29 15:37:56 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2018.03.29 15:37:56 INFO  es[][o.e.discovery] [sonarqube] sonarqube/HUSspANFSLmvZquv6ngQrw
+2018.03.29 15:38:00 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{HUSspANFSLmvZquv6ngQrw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2018.03.29 15:38:00 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2018.03.29 15:38:01 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2018.03.29 15:38:03 WARN  es[][o.e.index.translog] [sonarqube] [views][3] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:03 WARN  es[][o.e.index.translog] [sonarqube] [views][2] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:03 WARN  es[][o.e.index.translog] [sonarqube] [views][4] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:03 WARN  es[][o.e.index.translog] [sonarqube] [views][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:04 WARN  es[][o.e.index.translog] [sonarqube] [issues][0] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:04 WARN  es[][o.e.index.translog] [sonarqube] [views][1] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:04 WARN  es[][o.e.index.translog] [sonarqube] [issues][3] deleted previously created, but not yet committed, next generation [translog-18.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:04 WARN  es[][o.e.index.translog] [sonarqube] [users][0] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:04 WARN  es[][o.e.index.translog] [sonarqube] [issues][1] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:05 WARN  es[][o.e.index.translog] [sonarqube] [issues][2] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:05 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][0] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:05 WARN  es[][o.e.index.translog] [sonarqube] [rules][1] deleted previously created, but not yet committed, next generation [translog-20.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:05 WARN  es[][o.e.index.translog] [sonarqube] [rules][0] deleted previously created, but not yet committed, next generation [translog-20.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][3] deleted previously created, but not yet committed, next generation [translog-18.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][2] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [projectmeasures][1] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [tests][3] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [tests][1] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:06 WARN  es[][o.e.index.translog] [sonarqube] [tests][0] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [components][2] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [components][0] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [tests][4] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [tests][2] deleted previously created, but not yet committed, next generation [translog-16.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [components][1] deleted previously created, but not yet committed, next generation [translog-17.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:07 WARN  es[][o.e.index.translog] [sonarqube] [components][3] deleted previously created, but not yet committed, next generation [translog-18.tlog]. This can happen due to a tragic exception when creating a new generation
+2018.03.29 15:38:08 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][1], [components][3], [components][4]] ...]).
